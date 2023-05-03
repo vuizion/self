@@ -47,33 +47,41 @@
             <div class="qrBox">
                 <img src="img/QRcode.png" class="QRcodeIMG" width="80px" height="80px">
                 <div class="txtQRcode">
-                    <h3>Voici votre laissez-passer</h3>
-                    <p>Cliquez pour agrandir le QR-Code</p>
-                    <p>Et scanner le à l’entrée du self</p>
+                    <h3 class="InterSemiBold fs-18 fc-dark9">Voici votre laissez-passer</h3>
+                    <p class="InterMedium fs-12 fc-white10 fb-darkGreen miniCTAqrcode">Cliquez pour agrandir le QR-Code</p>
+                    <p class="InterRegular fs-12 fc-dark8">Et scanner le à l’entrée du self</p>
                 </div>
             </div>
 
             <div class="informations">
-                <p>24'</p>
-                <p>Temps d’attente estimé en minute</p>
+                <div class="waitTime">
+                    <p class="InterRegular fs-48 fc-dark9">24'</p>
+                    <p class="InterRegular fs-18 fc-dark7">Temps d’attente estimé en minute</p>
+                </div>
                 <div class="otherStats">
-                    <div class="stat1">
-                        <p>57</p>
-                        <p>personnes en attente</p>
+                    <div class="statInfo stat1Info">
+                        <p class="InterMedium fs-24 fc-dark9">57</p>
+                        <p class="InterRegular fs-12 fc-dark7">personnes en attente</p>
                     </div>
-                    <div class="stat2">
-                        <p>12:36</p>
-                        <p>heure de passage</p>
+                    <div class="statInfo stat2Info">
+                        <p class="InterMedium fs-24 fc-dark9">12:36</p>
+                        <p class="InterRegular fs-12 fc-dark7">heure de passage</p>
                     </div>
                 </div>
             </div>
 
-        <button>Rejoindre la file d’attente</button>
-        <button>Vous avez rejoint la queue</button>
+        <button class="InterMedium fs-16 fc-white10 fb-darkGreen ButtonFileAttente">
+            <p>Rejoindre la file d’attente</p>
+            <img src="img/arrow.svg">
+        </button>
+        <button class="InterMedium fs-16 fc-white10 fb-dark7 ButtonFileAttente">
+            <p>Vous avez rejoint la queue</p>
+            <img src="img/check.svg">
+        </button>
         </div>
         <div class="restauration">
             <div class="menuDuJour">
-                <h3>Menu du jour</h3>
+                <h3 class="InterSemiBold fs-18 fc-dark9">Menu du jour</h3>
                 <p>Entrée</p>
                 <p>feuilleté au comté</p>
                 <p>ou</p>
@@ -88,8 +96,21 @@
                 <p>mandarine</p>
             </div>
             <div class="stats right">
-                
-                
+                <div class="starsMenu">
+                    <p>*****</p>
+                </div>
+                <div class="stat1Menu">
+                    <p class="InterMedium fs-18 fc-white10 fb fb-darkGreen">4.56€</p>
+                    <p>le repas</p>
+                </div>
+                <div class="stat2Menu">
+                    <p>109.24€</p>
+                    <p>monnaie restante</p>
+                </div>
+                <div class="stat3Menu">
+                    <p>24</p>
+                    <p>passages restants</p>
+                </div>
             </div>
             <div class="button">
                 <button>Donner son avis sur les menus</button>

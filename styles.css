@@ -19,14 +19,26 @@
 /* --------- FONT SIZES --------- */
 /* ------------------------------ */
 
+.fs-48 {
+    font-size: 48px;
+}
+.fs-24 {
+    font-size: 24px;
+}
 .fs-20 {
     font-size: 20px;
 }
 .fs-18 {
     font-size: 18px;
 }
+.fs-16 {
+    font-size: 16px;
+}
 .fs-14 {
     font-size: 14px;
+}
+.fs-12 {
+    font-size: 12px;
 }
 
 /* ------------------------------ */
@@ -36,10 +48,30 @@
 .fc-dark9 {
     color: #1E2127;
 }
-
 .fc-dark8 {
     color: #4F5765;
 }
+.fc-dark7 {
+    color: #89909D;    
+}
+.fc-white10 {
+    color: #fff;
+}
+
+
+
+/* ------------------------------ */
+/* ------- FONT BACKGROUND ------ */
+/* ------------------------------ */
+
+.fb-darkGreen {
+    background-color: #2FAA52;
+}
+
+.fb-dark7 {
+    background-color: #89909D;
+}
+
 
 
 
@@ -139,6 +171,88 @@ body {
     margin: 0px;
 }
 
+.contentsTail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .qrBox {
     display: flex;
+    align-items: center;
+    gap: 16px;
 }
+
+.txtQRcode {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+}
+
+.txtQRcode p, .txtQRcode h3 {
+    margin: 2px;
+}
+
+.miniCTAqrcode {
+    padding: 4px 6px;
+    border-radius: 4px;
+    /*width: 21vh;*/
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.informations p {
+    margin: 0px;
+}
+
+.waitTime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.otherStats {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.statInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px;
+}
+
+.ButtonFileAttente {
+    border: none;
+    padding: 16px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.ButtonFileAttente img {
+    height: 16px;
+}
+
+.ButtonFileAttente p {
+    margin: 0px;
+}
+
+
+
+
