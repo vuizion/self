@@ -29,8 +29,17 @@
     font-size: 14px;
 }
 
+/* ------------------------------ */
+/* --------- FONT COLORS -------- */
+/* ------------------------------ */
 
+.fc-dark9 {
+    color: #1E2127;
+}
 
+.fc-dark8 {
+    color: #4F5765;
+}
 
 
 
@@ -90,12 +99,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px;
+}
+
+.presentation h3 {
+    margin: 0px;
+}
+
+.ImportantPres {
+    z-index: 10;
 }
 
 .illuBurger {
-    z-index: 10;
     height: 136px;
-    margin-right: 10px;
 }
 
 .decoA {
@@ -112,9 +128,17 @@ body {
     color: #fff;
     border: none;
     padding: 12px 16px;
-    border-radius: 8px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .button-2nd p {
     margin: 0px;
+}
+
+.qrBox {
+    display: flex;
 }
