@@ -291,8 +291,27 @@ body {
     display: flex;
 }
 
-.statsRight, .menuDuJour {
+.menuDuJour {
     width: 100%;
+}
+
+.statsRight {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.starsMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.starsMenu img {
+    width: 14px;
 }
 
 .stat1Menu {
@@ -301,7 +320,6 @@ body {
     align-items: center;
     background-color: #2FAA52;
     border-radius: 8px;
-    width: 100%;
     padding: 12px;
 }
 
@@ -311,8 +329,11 @@ body {
     align-items: center;
     background-color: #fff;
     border-radius: 8px;
-    width: 100%;
     padding: 12px;
+}
+
+.stat1Menu p, .stat2Menu p, .stat3Menu p {
+    margin: 0px;
 }
 
 
