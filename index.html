@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
 
+    <script src="script.js"></script>
+
     <!-- Lien pour téléchargement des fonts google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +30,8 @@
                 <h2 class="InterRegular fs-14">Lycée Louis Lachenal</h2>
             </div>
         </div>
-        <img src="img/menuBurger.svg">
+        <img src="img/menuBurger.svg" class="buttonBurgerMenu" onclick="openmenu()" >     
+        
     </div>
     <div class="container">
         <div class="presentation">
@@ -57,7 +60,7 @@
                 <div class="ImportantInfos">
                     <div class="waitTime">
                         <p class="InterRegular fs-48 fc-dark9">24'</p>
-                        <p class="InterRegular fs-18 fc-dark7">Temps d’attente estimé en minute</p>
+                        <p class="InterRegular fs-1 fc-dark7">Temps d’attente estimé en minute</p>
                     </div>
                     <div class="otherStats">
                         <div class="statInfo stat1Info">
@@ -87,7 +90,11 @@
         <div class="restauration">
             <div class="topRestau">
                 <div class="menuDuJour">
-                    <h3 class="InterSemiBold fs-18 fc-dark9">Menu du jour</h3>
+                    <div class="titleMenuDuJour">
+                        <img src="/img/fork-left.svg">
+                        <h3 class="InterSemiBold fs-16 fc-dark9">Menu du jour</h3>
+                        <img src="/img/fork-right.svg">
+                    </div>
                     <p>Entrée</p>
                     <p>feuilleté au comté</p>
                     <p>ou</p>

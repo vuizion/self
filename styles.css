@@ -230,6 +230,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .otherStats {
@@ -247,6 +248,7 @@ body {
     border-radius: 8px;
     width: 100%;
     padding: 12px;
+    text-align: center;
 }
 
 
@@ -287,17 +289,33 @@ body {
     margin: 0px;
 }
 
+.restauration {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .topRestau {
     display: flex;
+    gap: 16px;
 }
 
 .menuDuJour {
     width: 100%;
 }
 
+.titleMenuDuJour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+}
+
 .statsRight {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 8px;
 }
 
@@ -318,18 +336,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #2FAA52;
     border-radius: 8px;
     padding: 12px;
+    text-align: center;
+    gap: 4px;
+    height: 100%;
 }
 
 .stat2Menu, .stat3Menu {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #fff;
     border-radius: 8px;
     padding: 12px;
+    text-align: center;
+    gap: 4px;
+    height: 100%;
 }
 
 .stat1Menu p, .stat2Menu p, .stat3Menu p {
