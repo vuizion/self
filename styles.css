@@ -57,7 +57,9 @@
 .fc-white10 {
     color: #fff;
 }
-
+.fc-white8 {
+    color: #DEE1E6;
+}
 
 
 /* ------------------------------ */
@@ -72,7 +74,9 @@
     background-color: #89909D;
 }
 
-
+.fb-dark9 {
+    background-color: #1E2127;
+}
 
 
 
@@ -201,10 +205,21 @@ body {
 }
 
 .informations {
+    overflow: hidden;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
+}
+
+.ImportantInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    z-index: 10;
 }
 
 .informations p {
@@ -234,6 +249,25 @@ body {
     padding: 12px;
 }
 
+
+
+.decoB {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: -100px;
+    top: -180px;
+    z-index: 0;
+}
+.decoC {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    right: -100px;
+    top: -180px;
+    z-index: 0;
+}
+
 .ButtonFileAttente {
     border: none;
     padding: 16px;
@@ -253,6 +287,33 @@ body {
     margin: 0px;
 }
 
+.topRestau {
+    display: flex;
+}
+
+.statsRight, .menuDuJour {
+    width: 100%;
+}
+
+.stat1Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2FAA52;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px;
+}
+
+.stat2Menu, .stat3Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px;
+}
 
 
 
