@@ -47,7 +47,7 @@
             <img src="img/deco.svg" class="decoA">
         </div>
         <div class="contentsTail">
-            <div class="qrBox">
+            <div class="qrBox" onclick="openqr()">
                 <img src="img/QRcode.png" class="QRcodeIMG" width="80px" height="80px">
                 <div class="txtQRcode">
                     <h3 class="InterSemiBold fs-18 fc-dark9">Votre laissez-passer</h3>
@@ -78,7 +78,7 @@
                     <img src="img/blue-shadow.svg" class="decoC">
             </div>
 
-        <button class="InterMedium fs-16 fc-white10 fb-darkGreen ButtonFileAttente">
+        <button class="InterMedium fs-16 fc-white10 fb-darkGreen ButtonFileAttente" onclick="joinqueue()">
             <p>Rejoindre la file d’attente</p>
             <img src="img/arrow.svg">
         </button>
@@ -95,18 +95,44 @@
                         <h3 class="InterSemiBold fs-16 fc-dark9">Menu du jour</h3>
                         <img src="/img/fork-right.svg">
                     </div>
-                    <p>Entrée</p>
-                    <p>feuilleté au comté</p>
-                    <p>ou</p>
-                    <p>salade</p>
-                    <p>Plat</p>
-                    <p>boeuf bourguignon</p>
-                    <p>ou</p>
-                    <p>Poisson avec du riz</p>
-                    <p>dessert</p>
-                    <p>Tarte au chocolat</p>
-                    <p>ou</p>
-                    <p>mandarine</p>
+
+                    <div class="foods">
+
+                        <div class="nameMeal">
+                            <img src="/img/bar.png">
+                            <p class="InterMedium fs-12 fc-dark7">Entrée</p>
+                            <img src="/img/bar.png">
+                        </div>
+
+                        <div class="boxFoods">
+                            <p class="InterRegular fs-13 fc-dark9">Feuilleté au comté</p>
+                            <p class="InterRegular fs-8 fc-dark9">ou</p>
+                            <p class="InterRegular fs-13 fc-dark9">Salade</p>
+                        </div>
+                        
+                        <div class="nameMeal">
+                            <img src="/img/bar.png">
+                            <p class="InterMedium fs-12 fc-dark7">Plat</p>
+                            <img src="/img/bar.png">
+                        </div>
+                        
+                        <div class="boxFoods">
+                        <p class="InterRegular fs-13 fc-dark9">Boeuf bourguignon</p>
+                        <p class="InterRegular fs-8 fc-dark9">ou</p>
+                        <p class="InterRegular fs-13 fc-dark9">Poisson avec du riz</p>
+                        </div>
+
+                        <div class="nameMeal">
+                            <img src="/img/bar.png">
+                            <p class="InterMedium fs-12 fc-dark7">Dessert</p>
+                            <img src="/img/bar.png">
+                        </div>
+                        <div class="boxFoods">
+                        <p class="InterRegular fs-13 fc-dark9">Tarte au chocolat</p>
+                        <p class="InterRegular fs-8 fc-dark9">ou</p>
+                        <p class="InterRegular fs-13 fc-dark9">Mandarine</p>
+                        </div>
+                    </div>
                 </div>   
                 <div class="statsRight">
                     <div class="starsMenu">
@@ -131,8 +157,9 @@
                 </div>
             </div>
             <div class="button">
-                <button class="InterRegular fs-14 fc-white10 fb-dark9 button-2nd">
+                <button class="InterRegular fs-14 fc-white10 fb-dark9 button-2nd donnerAvis">
                     <p>Donner son avis sur les menus</p>
+                    <img src="img/arrow.svg">
                 </button>
             </div>
         </div>
