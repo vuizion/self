@@ -7,5 +7,5 @@ function joinqueue() {
 }
 
 function openqr() {
-    alert("Vous ne pouvez pas encore l'ouvrir'");
+    alert("Vous ne pouvez pas encore l'ouvrir");
 }

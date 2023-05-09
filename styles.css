@@ -352,8 +352,12 @@ body {
     border-radius: 8px;
     padding: 12px;
     text-align: center;
-    gap: 4px;
+    gap: 2px;
     height: 100%;
+}
+
+.stat1Menu img {
+    margin-bottom: 4px;
 }
 
 .stat2Menu, .stat3Menu {
@@ -365,7 +369,7 @@ body {
     border-radius: 8px;
     padding: 12px;
     text-align: center;
-    gap: 4px;
+    gap: 2px;
     height: 100%;
 }
 
@@ -398,6 +402,7 @@ body {
 .boxFoods {
     background-color: #fff;
     border-radius: 8px;
+    padding: 4px 0px;
 }
 
 .donnerAvis {
