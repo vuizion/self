@@ -38,7 +38,7 @@
             <div class="ImportantPres">
                 <h3 class="InterSemiBold fs-18 fc-dark9">Vous avez faim ?</h3>
                 <p class="InterRegular fs-14 fc-dark8">Faites la queue en ligne,<br>n’importe où, entre<br>11h20 et 13h10</p>
-                <button class="button-2nd">
+                <button class="button-2nd" onclick="seemore()">
                     <p class="Inter-Regular fs-14">En savoir plus</p>
                     <img src="img/arrow.svg">
                 </button>
@@ -60,12 +60,12 @@
                 <div class="ImportantInfos">
                     <div class="waitTime">
                         <p class="InterRegular fs-48 fc-dark9">24'</p>
-                        <p class="InterRegular fs-1 fc-dark7">Temps d’attente estimé en minute</p>
+                        <p class="InterRegular fs-1 fc-dark7" id="numWaitingTime">Temps d’attente estimé en minute</p>
                     </div>
                     <div class="otherStats">
                         <div class="statInfo stat1Info">
                             <p class="InterMedium fs-24 fc-dark9">57</p>
-                            <p class="InterRegular fs-12 fc-dark7">personnes en attente</p>
+                            <p class="InterRegular fs-12 fc-dark7" id="numPeopleWaiting">personnes en attente</p>
                         </div>
                         <div class="statInfo stat2Info">
                             <p class="InterMedium fs-24 fc-dark9">12:36</p>
@@ -78,11 +78,11 @@
                     <img src="img/blue-shadow.svg" class="decoC">
             </div>
 
-        <button class="InterMedium fs-16 fc-white10 fb-darkGreen ButtonFileAttente" onclick="joinqueue()">
+        <button class="InterMedium fs-16 fc-white10 fb-darkGreen ButtonFileAttente bfa1" onclick="joinqueue()">
             <p>Rejoindre la file d’attente</p>
             <img src="img/arrow.svg">
         </button>
-        <button class="InterMedium fs-16 fc-white10 fb-dark7 ButtonFileAttente">
+        <button class="InterMedium fs-16 fc-white10 fb-dark7 ButtonFileAttente bfa2">
             <p>Vous avez rejoint la queue</p>
             <img src="img/check.svg">
         </button>
@@ -158,7 +158,7 @@
                 </div>
             </div>
             <div class="button">
-                <button class="InterRegular fs-14 fc-white10 fb-dark9 button-2nd donnerAvis">
+                <button class="InterRegular fs-14 fc-white10 fb-dark9 button-2nd donnerAvis" onclick="ratemenu()">
                     <p>Donner son avis sur les menus</p>
                     <img src="img/arrow.svg">
                 </button>
